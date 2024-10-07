@@ -87,28 +87,28 @@ export default function Component() {
         return {
           title: "Hey there, Cutie! 💖",
           description:
-            "I&apos;ve been gathering up some courage to ask you something...",
+            "I've been gathering up some courage to ask you something...",
         };
       case "dateOptions":
         return {
           title: "Yay! You said yes! 🎉",
-          description: "Now, let&apos;s pick the perfect date idea...",
+          description: "Now, let's pick the perfect date idea...",
         };
       case "confirmed":
         return {
-          title: "It&apos;s a date! 😍",
-          description: "I can&apos;t wait to spend time with you!",
+          title: "It's a date! 😍",
+          description: "I can't wait to spend time with you!",
         };
       case "rejected":
         return {
           title: "Aw, maybe next time? 😊",
-          description: "No worries, I still think you&apos;re awesome!",
+          description: "No worries, I still think you're awesome!",
         };
       default:
         return {
           title: "Hey there, Cutie! 💖",
           description:
-            "I&apos;ve been gathering up some courage to ask you something...",
+            "I've been gathering up some courage to ask you something...",
         };
     }
   };
