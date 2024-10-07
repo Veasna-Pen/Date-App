@@ -87,28 +87,28 @@ export default function Component() {
         return {
           title: "Hey there, Cutie! 💖",
           description:
-            "I've been gathering up some courage to ask you something...",
+            "I&apos;ve been gathering up some courage to ask you something...",
         };
       case "dateOptions":
         return {
           title: "Yay! You said yes! 🎉",
-          description: "Now, let's pick the perfect date idea...",
+          description: "Now, let&apos;s pick the perfect date idea...",
         };
       case "confirmed":
         return {
-          title: "It's a date! 😍",
-          description: "I can't wait to spend time with you!",
+          title: "It&apos;s a date! 😍",
+          description: "I can&apos;t wait to spend time with you!",
         };
       case "rejected":
         return {
           title: "Aw, maybe next time? 😊",
-          description: "No worries, I still think you're awesome!",
+          description: "No worries, I still think you&apos;re awesome!",
         };
       default:
         return {
           title: "Hey there, Cutie! 💖",
           description:
-            "I've been gathering up some courage to ask you something...",
+            "I&apos;ve been gathering up some courage to ask you something...",
         };
     }
   };
@@ -189,7 +189,7 @@ export default function Component() {
               transition={{ duration: 0.5 }}
               className="text-center"
             >
-              <p className="text-2xl font-bold mb-4">🎉 It's a date! 🎉</p>
+              <p className="text-2xl font-bold mb-4">🎉 It&apos;s a date! 🎉</p>
               <p className="text-lg">
                 Get ready for our amazing{" "}
                 <span className="font-semibold">{selectedDate}</span>!
@@ -215,7 +215,7 @@ export default function Component() {
               className="text-center"
             >
               <Frown className="w-16 h-16 text-gray-500 mx-auto mb-2" />
-              <p className="text-xl font-semibold mb-4">Aww, that's okay!</p>
+              <p className="text-xl font-semibold mb-4">Aww, that&apos;s okay!</p>
               <p className="text-lg mb-4">
                 Maybe we can hang out as friends sometime?
               </p>
@@ -237,7 +237,7 @@ export default function Component() {
           <DialogHeader>
             <DialogTitle>Are you sure?</DialogTitle>
             <DialogDescription>
-              You're about to say no to an amazing date! Are you absolutely
+              You&apos;re about to say no to an amazing date! Are you absolutely
               certain?
             </DialogDescription>
           </DialogHeader>
@@ -246,7 +246,7 @@ export default function Component() {
               <Check className="mr-2 h-4 w-4" /> I changed my mind
             </Button>
             <Button variant="outline" onClick={handleConfirmNo}>
-              <X className="mr-2 h-4 w-4" /> Yes, I'm sure
+              <X className="mr-2 h-4 w-4" /> Yes, I&apos;m sure
             </Button>
           </div>
         </DialogContent>
